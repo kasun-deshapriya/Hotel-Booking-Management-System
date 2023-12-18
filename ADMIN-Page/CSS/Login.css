@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.form-box{
+	margin: auto;
+	margin-top: 60px;
+    width: 50%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+h2{
+	margin-left: 15%;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #140849;
+}
+input[type=text],[type=password] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+.btn1{
+    background-color: #000000da;
+    color: #fcfcff;
+    padding: 10px 20px;
+    border: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+label {
+    font-weight: bold;
+	margin-left: 8%;
+    text-decoration: none;
+    color: #140849;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.img1{
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 0.5%;
+}
+.img2{
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 0.5%;
+}
+.img4{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 17%;
+}

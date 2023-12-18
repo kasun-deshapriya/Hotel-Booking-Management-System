@@ -1,0 +1,66 @@
+.container0{
+   background-color: rgb(227, 242, 250);
+   width: 81.8%;
+   height: 850px;
+   margin-left: 18.2%;
+   margin-top: 5%;
+   position: -webkit-sticky;
+  
+ }
+ h4{
+     margin-left: 10%;
+     font-size: 20px;
+    
+ }
+ .container3{
+     background-color: rgb(237, 243, 247);
+     width: 96%;
+     height: 700px;
+     margin-left: 2%;
+     margin-top: 5%;
+     position: -webkit-sticky;
+ }
+ .input{
+   margin-left: 8%;
+   margin-top: 2%;
+   padding: 10px ;
+   width: 36.5%;
+ }
+ .input1{
+  margin-left: 6.5%;
+  margin-top: 2%;
+  padding: 10px ;
+  width: 37%;
+}
+.input2{
+  margin-left: 7%;
+  margin-top: 2%;
+  padding: 10px ;
+  width: 37%;
+}
+.input3{
+  margin-left: 6.5%;
+  margin-top: 2%;
+  padding: 10px ;
+  width: 36.5%;
+}
+.input4{
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 10px ;
+  width: 36.5%;
+  height: 100px;
+}
+.label3{
+  margin-top: 2%;
+  margin-left: 20%;
+  font-size: 20px;
+}
+.label4{
+  margin-top: 2%;
+  margin-left: 20%;
+  font-size: 20px;
+
+}
+
+ 
