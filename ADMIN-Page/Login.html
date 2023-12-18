@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width,intial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Login.css">
+
+    <script>
+        function validateForm() {
+            var username = document.forms["loginForm"]["username"].value;
+            var password = document.forms["loginForm"]["password"].value;
+            
+            if (username === "") {
+                alert("Please enter a username.");
+                return false;
+            }
+            
+            if (password === "") {
+                alert("Please enter a password.");
+                return false;
+            }
+            
+            // Check if the username and password are valid
+            if (username === "admin" && password === "password") {
+                window.location.href = "admin.php"; 
+                alert("Login successful!");// Redirect to admin.html
+                return false; // Prevent form submission
+            } else {
+                alert("Invalid username or password.");
+                return false;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="form-box">
+        <h2>Admin Login</h2><br>
+        <form name="loginForm" onsubmit="return validateForm()">
+            <div class="input">
+
+            <input type="text" id="username" placeholder="Email / UserName" name="username" value="" >
+
+            <img src="./images/download__1_-removebg-preview.png" alt="" width="30px" height="30px" class="img1">
+
+            <input type="Password" id="password"placeholder="Password" name="password" value="" >
+
+            <img src="./images/download__2_-removebg-preview.png" alt="" width="30px" height="30px" class="img2">
+        
+            </div>
+         
+            <a href="admin.html"> <button class="btn1"> Login </button> </a>
+            <a href="Login.html"> <button class="btn1"> Cancel </button> </a>
+          
+
+            
+             <img src="./images/download (1).jpg" alt="" class="img4">
+        </form>
+    
+</body>
+</html>
