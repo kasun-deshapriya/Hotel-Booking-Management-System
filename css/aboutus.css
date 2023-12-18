@@ -1,0 +1,25 @@
+  .container1 {
+    display: flex;
+    margin-top: -22.5%;
+    margin-bottom: 2%;
+    margin-left:3%;
+    border-radius: 10%;
+  }
+  
+  .sidebar {
+    background-color:white;
+    padding: 20px;
+    width: 40%;
+    text-align: center; /* Center align text */
+    margin: left; /* Center the sidebar horizontally */
+  }
+  
+  h2 {
+    color:rgb(13, 13, 37);
+  }
+  
+  p1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
